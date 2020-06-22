@@ -196,8 +196,8 @@ namespace NOAFntEditor
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            PreviewText();
             timer1.Stop();
+            PreviewText();
         }
 
         private void PreviewText()
